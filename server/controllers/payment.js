@@ -69,7 +69,10 @@ export const processPayment = async (req, res) => {
 // webhook 
 export const updateViaStripe = async (req, res) => {
     const sig = req.headers['stripe-signature'];
-    const endpointSecret = "whsec_nHHw2ulYk67McIzDj4WfqZBiUD1Y8zOM"
+
+
+    // your webhook key
+    const endpointSecret = ""
 
     let event;
 

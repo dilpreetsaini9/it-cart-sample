@@ -1,0 +1,65 @@
+.main {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.custom-bg-1 {
+    background: rgb(14, 19, 27);
+    background: radial-gradient(circle, rgba(14, 19, 27, 0.6763480392156863) 0%, rgba(171, 10, 10, 0) 99%);
+}
+
+.button-nav {
+    background-color: rgb(9, 106, 197);
+    color: white;
+    padding: 3px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+.button-nav:hover {
+    background-color: rgb(0, 40, 78);
+    color: white;
+    padding: 3px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px
+}
+
+.button-nav:active {
+    background-color: rgb(20, 20, 20);
+    color: white;
+    padding: 3px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+.button-nav-remove {
+    background-color: #EF4444;
+    color: black;
+    font-weight: 700;
+    padding: 3px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+}
+
+.button-nav-remove:hover {
+    background-color: #bd2b2b;
+    color: white;
+    padding: 3px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
+
+.button-nav-remove:active {
+    background-color: #690909;
+    color: white;
+    padding: 3px 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2px;
+}
